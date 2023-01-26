@@ -82,7 +82,7 @@ class Exercice {
                 this.seconds--;
                 this.updateCoutdown();
             }
-        }, 10);
+        }, 1000);
 
         return (main.innerHTML = `
         <div class="exercice-container">
